@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "AllerDisplay";
+  src: url("fonts/AllerDisplay.eot"); /* IE9 Compat Modes */
+  src: url("fonts/AllerDisplay.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/AllerDisplay.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("fonts/AllerDisplay.woff") format("woff"),
+    /* Pretty Modern Browsers */ url("fonts/AllerDisplay.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/AllerDisplay.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+  font-weight: 400;
+  font-style: normal;
+}
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -19,7 +32,7 @@ p {
   color: #8f8f8f;
 }
 
-table{
+table {
   width: 100%;
 }
 
@@ -57,7 +70,7 @@ table{
 /* Nvaigation Bar */
 
 .navbar {
-  padding: 0 0 2rem;
+  padding: 1.5rem 2rem;
 }
 
 .navbar-brand {
@@ -77,6 +90,7 @@ table{
 }
 
 /* Download Buttons */
+
 .download-button {
   margin: 5% 3% 5% 0;
 }
@@ -91,7 +105,7 @@ table{
 /* Title Image */
 
 .title-image {
-  width:20rem;
+  width: 20rem;
   transform: rotate(25deg);
   position: absolute;
   right: 20%;
@@ -117,13 +131,32 @@ table{
 }
 
 .icon:hover {
-  color: #F28F38;
+  color: #f28f38;
+}
+
+/* cards */
+
+.card {
+  margin: 5% auto 0px; /* Added */
+  float: none; /* Added */
+}
+
+.card-column {
+  padding: 3% 2%;
+}
+
+.condiciones {
+  font-size: 0.5rem;
+}
+
+.titulo {
+  font-family: AllerDisplay;
 }
 
 /* Testimonials Section */
 
 #testimonials {
-  background-color: #F28F38 ;
+  background-color: #f28f38;
 }
 
 .testimonial-text {
@@ -137,7 +170,7 @@ table{
 }
 
 #press {
-  background-color: #F28F38;
+  background-color: #f28f38;
   padding-bottom: 3%;
 }
 
@@ -157,7 +190,7 @@ table{
   line-height: 1.5;
 }
 
-.h-text{
+.h-text {
   font-size: 1rem;
 }
 
@@ -165,10 +198,9 @@ table{
   padding: 3% 2%;
 }
 
-.cierre{
+.cierre {
   color: red;
 }
-
 
 /* Footer section */
 
@@ -177,8 +209,8 @@ table{
   margin: 20px 10px;
 }
 
-.social-icon:hover{
-  color: #F28F38;
+.social-icon:hover {
+  color: #f28f38;
 }
 
 .logo {
@@ -186,17 +218,29 @@ table{
   margin: 20px 20px 15px;
 }
 
-.copyright{
-  font-size: .7rem;
+.direccion{
+  margin-top: 3%;
+}
+
+.direccion-icon{
+  color: #0e7939;
+}
+
+.direccion-icon:hover {
+  color: #f28f38;
+}
+
+.copyright {
+  margin-top: 1%;
+  font-size: 0.7rem;
 }
 
 @media (max-width: 1028px) {
-
-  em{
+  em {
     font-size: 1.3rem;
   }
 
-  p{
+  p {
     font-size: 1.5rem;
   }
 
@@ -211,11 +255,12 @@ table{
   }
 
   .title-image {
+    width: 60%;
     position: static;
-    transform: rotate(0);
+    transform: rotate(25deg);
   }
 
-    /* .download-button {
+  /* .download-button {
     margin: 5% 3% 5% 0;
     width: 50%;
   } */
@@ -233,7 +278,7 @@ table{
     line-height: 1.5;
   }
 
-  .h-text{
+  .h-text {
     font-size: 1.5rem;
   }
 
