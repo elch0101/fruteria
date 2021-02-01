@@ -233,4 +233,14 @@ table{
   .h-text{
     font-size: 1.5rem;
   }
+  
+  .logo {
+    width: 30%;
+    margin: 20px 20px 15px;
+  }
+
+  .social-icon {
+    color: #0e7939;
+    margin: 20px 20px 55px;
+  }
 }
