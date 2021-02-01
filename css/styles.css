@@ -201,15 +201,20 @@ table{
     text-align: center;
   }
 
+  .nav-link {
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+  }
+
   .title-image {
     position: static;
     transform: rotate(0);
   }
 
-  .nav-link {
-    font-size: 2rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
+  .download-button {
+    margin: 5% 3% 5% 0;
+    width: 50%;
   }
 
   .feature-title {
