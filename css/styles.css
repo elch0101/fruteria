@@ -1,5 +1,4 @@
 
-
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -193,6 +192,10 @@ table{
 
 @media (max-width: 1028px) {
 
+  em{
+    font-size: 1.3rem;
+  }
+
   p{
     font-size: 1.5rem;
   }
@@ -212,10 +215,10 @@ table{
     transform: rotate(0);
   }
 
- /* .download-button {
+  .download-button {
     margin: 5% 3% 5% 0;
     width: 50%;
-  }*/
+  }
 
   .feature-title {
     font-size: 2rem;
@@ -233,7 +236,7 @@ table{
   .h-text{
     font-size: 1.5rem;
   }
-  
+
   .logo {
     width: 30%;
     margin: 20px 20px 15px;
