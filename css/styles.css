@@ -91,7 +91,7 @@ table{
 /* Title Image */
 
 .title-image {
-  width:27%;
+  width:20rem;
   transform: rotate(25deg);
   position: absolute;
   right: 20%;
