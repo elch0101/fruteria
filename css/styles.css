@@ -1,0 +1,231 @@
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+table{
+  width: 100%;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.secciont-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #0e7939;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Nvaigation Bar */
+
+.navbar {
+  padding: 0 0 2rem;
+}
+
+.navbar-brand {
+  font-family: AllerDisplay;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title Image */
+
+.title-image {
+  width:27%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* Features Seccion*/
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #0e7939;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #F28F38;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #F28F38 ;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #F28F38;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* horarios Section */
+
+#horarios {
+  padding: 100px;
+}
+
+.h-title {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.h-text{
+  font-size: 1rem;
+}
+
+.horarios-column {
+  padding: 3% 2%;
+}
+
+.cierre{
+  color: red;
+}
+
+
+/* Footer section */
+
+.social-icon {
+  color: #0e7939;
+  margin: 20px 10px;
+}
+
+.social-icon:hover{
+  color: #F28F38;
+}
+
+.logo {
+  width: 17%;
+  margin: 20px 20px 15px;
+}
+
+.copyright{
+  font-size: .7rem;
+}
+
+@media (max-width: 1028px) {
+
+  p{
+    font-size: 1.3rem;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .nav-link {
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+  }
+
+  .feature-title {
+    font-size: 2rem;
+  }
+
+  .testimonial-text {
+    font-size: 3.4rem;
+  }
+
+  .h-title {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  .h-text{
+    font-size: 1.5rem;
+  }
+}
